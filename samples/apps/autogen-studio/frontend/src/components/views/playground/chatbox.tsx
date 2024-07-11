@@ -500,7 +500,7 @@ const ChatBox = ({
 
   const getConnectionColor = (status: string) => {
     if (status === "connected") {
-      return "bg-green-500";
+      return "bg-blue-500";
     } else if (status === "reconnecting") {
       return "bg-orange-500";
     } else if (status === "disconnected") {
@@ -686,7 +686,7 @@ const ChatBox = ({
                   )}`}
                 ></div>{" "}
               </Tooltip>
-              Blank slate? Try one of the example prompts below{" "}
+              Try example here{" "}
             </div>
 
             <div

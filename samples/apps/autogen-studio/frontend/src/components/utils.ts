@@ -563,31 +563,51 @@ export const timeAgo = (
 };
 
 export const examplePrompts = [
-  {
-    title: "Stock Price",
+    {
+    title: "Battery warranty",
     prompt:
-      "Plot a chart of NVDA and TESLA stock price for 2023. Save the result to a file named nvda_tesla.png",
-  },
-  {
-    title: "Sine Wave",
+      "Get current PC battery warranty",
+    },
+    {
+    title: "Recovery battery driver",
     prompt:
-      "Write a python script to plot a sine wave and save it to disc as a png file sine_wave.png",
-  },
-  {
-    title: "Markdown",
+      "Check PC battery driver and try to reinstall it.",
+    },
+    // {
+    // title: "Replace battery",
+    // prompt:
+    //   "Retrieve knowledge from local RAG agent, summary the result as an easy understanding introduction.",
+    // },
+    {
+    title: "Replace battery",
     prompt:
-      "List out the top 5 rivers in africa and their length and return that as a markdown table. Do not try to write any code, just write the table",
-  },
-  {
-    title: "Paint",
-    prompt:
-      "paint a picture of a glass of ethiopian coffee, freshly brewed in a tall glass cup, on a table right in front of a lush green forest scenery",
-  },
-  {
-    title: "Travel",
-    prompt:
-      "Plan a 2 day trip to hawaii. Limit to 3 activities per day, be as brief as possible!",
-  },
+      "Search and summary how to replacy notebook battery.",
+    },
+  // {
+  //   title: "Stock Price",
+  //   prompt:
+  //     "Plot a chart of NVDA and TESLA stock price for 2023. Save the result to a file named nvda_tesla.png",
+  // },
+  // {
+  //   title: "Sine Wave",
+  //   prompt:
+  //     "Write a python script to plot a sine wave and save it to disc as a png file sine_wave.png",
+  // },
+  // {
+  //   title: "Markdown",
+  //   prompt:
+  //     "List out the top 5 rivers in africa and their length and return that as a markdown table. Do not try to write any code, just write the table",
+  // },
+  // {
+  //   title: "Paint",
+  //   prompt:
+  //     "paint a picture of a glass of ethiopian coffee, freshly brewed in a tall glass cup, on a table right in front of a lush green forest scenery",
+  // },
+  // {
+  //   title: "Travel",
+  //   prompt:
+  //     "Plan a 2 day trip to hawaii. Limit to 3 activities per day, be as brief as possible!",
+  // },
 ];
 
 export const fetchVersion = () => {

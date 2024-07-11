@@ -16,8 +16,8 @@ require("dotenv").config({
 const config: GatsbyConfig = {
   pathPrefix: `${process.env.PREFIX_PATH_VALUE}`,
   siteMetadata: {
-    title: `AutoGen Studio [Beta]`,
-    description: `Build Multi-Agent Apps`,
+    title: `Agent Fix POC`,
+    description: `Multi-Agent PC Recovery Assistant`,
     siteUrl: `http://tbd.place`,
   },
   flags: {

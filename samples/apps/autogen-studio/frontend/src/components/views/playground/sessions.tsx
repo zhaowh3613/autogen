@@ -25,6 +25,7 @@ const SessionsView = ({}: any) => {
 
   const { user } = React.useContext(appContext);
   const serverUrl = getServerUrl();
+  console.log('serverUrl ', serverUrl);
   const listSessionUrl = `${serverUrl}/sessions?user_id=${user?.email}`;
   const createSessionUrl = `${serverUrl}/sessions`;
   const publishSessionUrl = `${serverUrl}/sessions/publish`;
