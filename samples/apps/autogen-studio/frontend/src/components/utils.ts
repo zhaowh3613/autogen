@@ -569,19 +569,19 @@ export const examplePrompts = [
       "Get current PC battery warranty",
     },
     {
-    title: "Recovery battery driver",
+    title: "Recovery camera issue",
     prompt:
-      "Check PC battery driver and try to reinstall it.",
+      "Check PC camera driver and recover.",
     },
-    // {
-    // title: "Replace battery",
-    // prompt:
-    //   "Retrieve knowledge from local RAG agent, summary the result as an easy understanding introduction.",
-    // },
+    {
+    title: "Camera preview issue",
+    prompt:
+      "camera preview feature in windows is over exposed.",
+    },
     {
     title: "Replace battery",
     prompt:
-      "Search and summary how to replacy notebook battery.",
+      "How to replace my pc battery.",
     },
   // {
   //   title: "Stock Price",

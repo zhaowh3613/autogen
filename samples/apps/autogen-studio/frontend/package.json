@@ -8,10 +8,10 @@
     "gatsby"
   ],
   "scripts": {
-    "develop": "gatsby clean && gatsby develop",
+    "develop": "gatsby clean && gatsby develop --host 0.0.0.0",
     "dev": "npm run develop",
     "start": "gatsby clean && gatsby develop",
-    "build": "gatsby clean && rm -rf ../autogenstudio/web/ui && PREFIX_PATH_VALUE='' gatsby build --prefix-paths && rsync -a --delete public/ ../autogenstudio/web/ui/",
+    "build": "gatsby clean && rmdir /s /q ..\\\\autogenstudio\\\\web\\\\ui 2>nul & (set \\\"PREFIX_PATH_VALUE=\\\" || ver>nul) && gatsby build --prefix-paths && xcopy /E /I /Y public ..\\\\autogenstudio\\\\web\\\\ui",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "typecheck": "tsc --noEmit"

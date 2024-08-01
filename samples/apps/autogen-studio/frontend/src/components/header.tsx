@@ -24,7 +24,7 @@ const Header = ({ meta, link }: any) => {
 
   const links: any[] = [
     { name: "Chat", href: "/" },
-    { name: "Gallery", href: "/gallery" },
+    // { name: "Gallery", href: "/gallery" },
     // { name: "Data Explorer", href: "/explorer" },
     { name: "Settings", href: "/build" },
   ];
