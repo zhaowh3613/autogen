@@ -569,12 +569,12 @@ export const examplePrompts = [
       "Get current PC battery warranty",
     },
     {
-    title: "Recovery camera issue",
+    title: "Replace camera",
     prompt:
-      "Check PC camera driver and recover.",
+      "How to replace the camera module on my PC.",
     },
     {
-    title: "Camera preview issue",
+    title: "Fix camera preview issue",
     prompt:
       "camera preview feature in windows is over exposed.",
     },
